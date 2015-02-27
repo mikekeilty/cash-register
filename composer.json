@@ -1,0 +1,23 @@
+{
+    "name": "michaelkeilty/cashregister",
+    "description": "Cash Register class that transacts using any denomination and is currency agnostic",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Keilty",
+            "email": "mikekeilty@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "CashRegister": "lib"
+        }
+    }
+}
